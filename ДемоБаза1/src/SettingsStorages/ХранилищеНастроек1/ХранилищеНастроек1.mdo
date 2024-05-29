@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SettingsStorage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="568bc58e-3ce4-457a-9d80-08d725aafc42">
+  <producedTypes>
+    <managerType typeId="611a0b56-660d-498d-9d0d-c8b502a277b3" valueTypeId="cfb108ed-2005-4467-b5e8-aa59cee2121c"/>
+  </producedTypes>
+  <name>ХранилищеНастроек1</name>
+  <defaultSaveForm>SettingsStorage.ХранилищеНастроек1.Form.ФормаСохранения</defaultSaveForm>
+  <forms uuid="4c99ef34-48fc-473b-80b9-0af715ff1682">
+    <name>ФормаСохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сохранения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5991edec-742d-40d0-9477-98db6a9f1bf2">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:SettingsStorage>

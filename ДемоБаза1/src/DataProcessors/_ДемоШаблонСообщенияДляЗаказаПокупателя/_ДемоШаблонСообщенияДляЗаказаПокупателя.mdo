@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bb15854-fac9-41a0-8193-b33416e8a4d8">
+  <producedTypes>
+    <objectType typeId="8ab2ce14-8694-4849-a37e-726233ffdd08" valueTypeId="6db783bf-30a6-4d90-aec6-b7ecc56868b1"/>
+    <managerType typeId="5945ca82-1aeb-4fa0-bf63-4b39f80d9c2f" valueTypeId="d27ce229-dcb5-4529-87d6-8894f8f40026"/>
+  </producedTypes>
+  <name>_ДемоШаблонСообщенияДляЗаказаПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Шаблон сообщения для заказа покупателя</value>
+  </synonym>
+  <comment>Для обновления следует поднять номер версии в функции СведенияОВнешнейОбработке и запустить обновление ИБ.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоШаблонСообщенияДляЗаказаПокупателя.Form.Форма</defaultForm>
+  <forms uuid="943d8fb4-688f-4df4-84ae-0fe240ea71c1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f8dc3cc5-8957-4af6-abf5-583f5470af4f">
+    <name>МакетПисьмоHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет письмо HTML</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="bc74620e-7f58-49d5-ab5a-2751fa8ed408">
+    <name>Логотип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логотип</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

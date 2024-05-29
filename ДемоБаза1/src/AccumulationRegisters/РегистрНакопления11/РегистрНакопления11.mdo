@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0653600e-ed40-42a5-a132-4863106f8c96">
+  <producedTypes>
+    <selectionType typeId="594c11d0-3efc-4954-b7aa-19a8e6ee6441" valueTypeId="d549f58b-bbce-4564-b661-5fbbb2d14c79"/>
+    <listType typeId="4c6acd87-e535-49f4-87c5-89b7832f1de2" valueTypeId="6c37b2d0-4f66-4869-afa9-08be18b509ab"/>
+    <managerType typeId="6838cc90-316f-475f-b097-421367f26a01" valueTypeId="c0fdac1c-1132-43bf-857b-4f2f818cb2e4"/>
+    <recordSetType typeId="e56e4e8d-2c72-445a-8a00-71d51eaeb740" valueTypeId="c7f75fca-64f8-4ad0-bf0f-0336302e88da"/>
+    <recordKeyType typeId="19ae0a41-a3ad-4675-826e-abb65948c069" valueTypeId="ca876489-424c-465e-91be-d69951e785a1"/>
+    <recordType typeId="4501ed1b-b47c-4912-9cd6-784c6461a9eb" valueTypeId="b070afe8-45cb-49a4-9184-4939649461bb"/>
+  </producedTypes>
+  <name>РегистрНакопления11</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр накопления11</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <comment>фыва</comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e45c2bd0-3b81-4a25-a3ec-90888a1eab43">
+    <name>Ресурс1</name>
+    <type>
+      <types>DefinedType.ОпределяемыйТип1</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="68ac871a-a4bc-4e80-8e19-cfe85fab8452">
+    <name>Измерение1</name>
+    <type>
+      <types>CatalogRef.Справочник_ТестБитыхСсылок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Ссылка</name>
+      <value xsi:type="core:ReferenceValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

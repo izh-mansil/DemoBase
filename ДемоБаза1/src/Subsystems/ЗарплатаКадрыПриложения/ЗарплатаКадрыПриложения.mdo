@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09721988-439b-49eb-a4fe-159260c41571">
+  <name>ЗарплатаКадрыПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата кадры приложения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ИндивидуальныйПланРазвития</content>
+  <subsystems>УчетХозрасчетныхОрганизаций</subsystems>
+</mdclass:Subsystem>

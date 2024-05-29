@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d758c7ee-dfc6-4e77-82a4-573a12bfe7ac">
+  <producedTypes>
+    <objectType typeId="666d162f-8c53-4413-ac44-9401aaf3f915" valueTypeId="87492927-40a4-4568-a43d-c0b04673e8d8"/>
+    <refType typeId="de233417-9f12-42d7-8470-8d51be74ac24" valueTypeId="eca1ef91-9bb4-4bcd-9ff5-8ebc4bddf6be"/>
+    <selectionType typeId="295c9758-6f9f-438e-99c5-1a1be88160f6" valueTypeId="baea373f-5572-4dfa-8b34-561922f3a405"/>
+    <listType typeId="3bebaa1a-cf53-4007-a0f8-beb590f82c86" valueTypeId="3d2f21bf-74d3-45d1-afb8-32629cd0319a"/>
+    <managerType typeId="c5a5eb40-11ef-4a72-a844-46ef1d83da66" valueTypeId="267e3f54-e056-45b6-b2b5-a8f1fbe881b7"/>
+  </producedTypes>
+  <name>Справочник_ТестБитыхСсылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник тест битых ссылок</value>
+  </synonym>
+  <comment>  </comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Справочник_ТестБитыхСсылок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Справочник_ТестБитыхСсылок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>владелееццц</value>
+    </synonym>
+    <comment>блаблабла</comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Справочник1.элемент_группы</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>2345</name>
+      <value xsi:type="core:StringValue">
+        <value>вапрвапр</value>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>2343</name>
+      <value xsi:type="core:StringValue">
+        <value>вапрвапр</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Справочник1</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Справочник_ТестБитыхСсылок.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="66bd9de1-acf2-440c-a475-502e859c719b">
+    <name>Реквизит1</name>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Наименование</name>
+      <value xsi:type="core:StringValue">
+        <value>чсмичсми</value>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Реквизит1</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Ссылка</name>
+      <value xsi:type="core:ReferenceValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Ссылка1</name>
+      <value xsi:type="core:ReferenceValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f7b99ed-2a96-4b85-847c-b6a0e769d5f4">
+    <name>Реквизит2</name>
+    <type>
+      <types>CatalogRef.Справочник_ТестБитыхСсылок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="23aca79c-deb7-4e3f-86a9-46dab153c93b">
+    <producedTypes>
+      <objectType typeId="41fecc14-8c12-421a-8619-9da29baebaa6" valueTypeId="3d3aa6af-ceed-4987-b5c0-cbc5088ad4dd"/>
+      <rowType typeId="2af71040-31bb-4d2b-a504-031f6b73bf30" valueTypeId="87f97d8b-ab3f-4deb-9120-8920bae10b75"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <attributes uuid="1855e69d-d2ba-4224-ba95-badbc0c948ea">
+      <name>Реквизит1</name>
+      <type>
+        <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7fc60af8-6d57-49c5-9859-e9bcdee07c30">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="7eb5fcaf-498c-4103-a914-d9a72d49a4a4">
+    <name>Команда1</name>
+    <group>CommandGroup.ГруппаКоманд1</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9bccf91-bca8-4521-85f5-b7d573a3e234">
+  <name>ОбщийРеквизит2</name>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>45</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataHistory>Use</dataHistory>
+  <fillValue xsi:type="core:UndefinedValue"/>
+  <content>
+    <metadata>InformationRegister.РегистрСведений1</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>ChartOfCalculationTypes.ПланВидовРасчета1</metadata>
+    <use>Use</use>
+  </content>
+  <dataSeparation>DontUse</dataSeparation>
+  <separatedDataUse>IndependentlyAndSimultaneously</separatedDataUse>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>

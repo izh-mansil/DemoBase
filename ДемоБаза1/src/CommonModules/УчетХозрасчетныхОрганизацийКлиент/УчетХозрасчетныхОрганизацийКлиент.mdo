@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f2af88c-7460-474a-a1cc-628f777f807f">
+  <name>УчетХозрасчетныхОрганизацийКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет хозрасчетных организаций клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

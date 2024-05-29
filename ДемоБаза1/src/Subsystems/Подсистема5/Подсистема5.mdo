@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2559d809-c2ff-48fa-bb6c-9a3e1316d7a7">
+  <name>Подсистема5</name>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.СтандартныеПодсистемыСервер</content>
+  <content>CommonModule.ОбщийМодуль3КлиентСервер</content>
+</mdclass:Subsystem>

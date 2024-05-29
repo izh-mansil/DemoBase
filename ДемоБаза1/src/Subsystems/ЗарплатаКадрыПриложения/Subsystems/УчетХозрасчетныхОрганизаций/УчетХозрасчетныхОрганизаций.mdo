@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdb15925-a7f0-479c-9d3c-77161f701b3e">
+  <name>УчетХозрасчетныхОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет хозрасчетных организаций</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.УчетХозрасчетныхОрганизацийКлиент</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

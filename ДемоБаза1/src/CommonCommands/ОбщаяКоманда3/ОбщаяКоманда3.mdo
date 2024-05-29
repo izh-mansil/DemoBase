@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2145f30c-d2e4-4381-a8e4-c621aba72a82">
+  <name>ОбщаяКоманда3</name>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.Документ1</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1dc584f-039b-45e7-af08-9e51fb284c9f">
+  <name>Подсистема11</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема11</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.Константа1</content>
+  <content>CommonForm.Форма_НеразрешимыеСсылкиНаКартинки</content>
+  <content>FunctionalOption.ФункциональнаяОпция2</content>
+  <subsystems>Подсистема111</subsystems>
+  <parentSubsystem>Subsystem.Подсистема1</parentSubsystem>
+</mdclass:Subsystem>

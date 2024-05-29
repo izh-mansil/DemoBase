@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3343a3ea-f998-4bca-bb41-09ceafb5d07c">
+  <name>Подсистема31</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема31</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.ОбщаяКоманда1</content>
+  <content>InformationRegister.РегистрСведений1</content>
+  <content>CommonAttribute.ОбщийРеквизит1</content>
+  <content>CommonModule.СтандартныеПодсистемыСервер</content>
+  <parentSubsystem>Subsystem.Подсистема3</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfaa0750-7c0f-423e-b379-a9aa8d480bb9">
+  <name>РегламентноеЗаданиеНеПредопределенное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентное задание не предопределенное</value>
+  </synonym>
+  <methodName>CommonModule.ДивидендыКлиент.РегламентноеЗаданиеОбработчик</methodName>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

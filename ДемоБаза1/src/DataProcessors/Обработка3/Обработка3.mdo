@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="514c393e-217b-4ff7-a935-76d882680861">
+  <producedTypes>
+    <objectType typeId="9d4562e0-54a5-42ea-9925-5fcadc5198ae" valueTypeId="992f8a9b-0c86-4811-8e1a-790b597b3121"/>
+    <managerType typeId="b8f2524c-3493-4eb3-b8c6-f8446a610b8d" valueTypeId="53f52c9d-f48c-49f7-975e-e932b7342133"/>
+  </producedTypes>
+  <name>Обработка3</name>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Обработка3.Form.Форма</defaultForm>
+  <attributes uuid="8a691ed4-ec58-4284-9a4b-ca6023333655">
+    <name>Реквизит1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5d1761da-69a2-47a9-b43e-d0642c9788f4">
+    <name>Реквизит2</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c7c9ff34-3df8-4297-af28-6e624cf47bcb">
+    <name>Реквизит3</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a7b58671-ea60-451b-ba92-d5298913db01">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

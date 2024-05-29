@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a36391b3-8060-410e-a9a8-133ef7d97100">
+  <name>ПодпискаНаСобытие1</name>
+  <source>
+    <types>CatalogManager</types>
+  </source>
+  <event>ChoiceDataGetProcessing</event>
+  <handler>CommonModule.ОбщийМодуль2ВызовСервера.ЗаполнитьНаборыЗначенийДоступаТабличныхЧастей</handler>
+</mdclass:EventSubscription>

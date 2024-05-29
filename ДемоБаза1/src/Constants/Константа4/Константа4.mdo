@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2b42d83-79d2-41ad-af53-f607aadbb872">
+  <producedTypes>
+    <managerType typeId="00f22aa9-8340-44ed-8917-00c6ed61e0ea" valueTypeId="7c53044f-6746-4019-ac6f-ba85b358001c"/>
+    <valueManagerType typeId="e138872d-a8db-4789-8f0f-26bfbe54d6c9" valueTypeId="d13072fc-f700-496a-81a2-d4d7086619e3"/>
+    <valueKeyType typeId="8d6ab9e0-900e-4279-9608-76f7d0887c77" valueTypeId="e29c413e-f81a-4cd4-b33b-e86a77ae15cd"/>
+  </producedTypes>
+  <name>Константа4</name>
+  <type>
+    <types>CatalogRef.Организации</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceParameters>
+    <name>Отбор.ЭтоГруппа</name>
+    <value xsi:type="core:BooleanValue"/>
+  </choiceParameters>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

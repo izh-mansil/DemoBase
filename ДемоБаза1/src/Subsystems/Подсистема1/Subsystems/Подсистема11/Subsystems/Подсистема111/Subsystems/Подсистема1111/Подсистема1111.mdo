@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="351165a5-8fbf-465a-b511-788d8f1210f9">
+  <name>Подсистема1111</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема1111</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.УдалитьДокумент2</content>
+  <content>DocumentJournal.ЖурналДокументов1</content>
+  <content>Document.ЯЯЯ</content>
+  <content>Role.БазовыеПрава</content>
+  <parentSubsystem>Subsystem.Подсистема1.Subsystem.Подсистема11.Subsystem.Подсистема111</parentSubsystem>
+</mdclass:Subsystem>

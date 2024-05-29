@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e99bbe7b-073a-4461-aa1b-c4639af3edd9">
+  <producedTypes>
+    <objectType typeId="d5e65a1a-aaf7-46ea-861e-a148b648637a" valueTypeId="3b6d577d-4fa5-4c68-8c59-2724c5cd4301"/>
+    <refType typeId="e0977e34-6c07-4beb-bd0a-9f1b2dde4702" valueTypeId="2562c67f-21ff-48e5-a20c-18f59212eb9a"/>
+    <selectionType typeId="bdadaab2-851d-4a8e-b802-e827ccab3e19" valueTypeId="b36af346-ee9f-4e5d-b8d5-dfce00ce1bac"/>
+    <listType typeId="de0f57ea-0473-4697-ad3d-1ce93cbe1b66" valueTypeId="542a8c89-9524-47d5-a734-4a911f446642"/>
+    <managerType typeId="e7d9eb8b-3ed5-46a6-a9fe-0bcdbcab1403" valueTypeId="a10f9e4a-68e1-4c79-b546-dc35638c86c6"/>
+  </producedTypes>
+  <name>УдалитьДокумент2</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) документ2</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УдалитьДокумент2.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УдалитьДокумент2.Form.ФормаДокумента</defaultObjectForm>
+  <defaultChoiceForm>Document.УдалитьДокумент2.Form.ФормаВыбора</defaultChoiceForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="38c7275d-3560-4261-a402-2b888073a880">
+    <name>Реквизит1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a7db422e-8956-42e2-bffc-532e075618ab">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru1</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="167b6364-b7fd-4c50-8d87-063f93af3169">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="5c439faf-9477-4acf-a123-360899bb638f">
+    <producedTypes>
+      <objectType typeId="f4b5716d-83ef-4f06-97f2-b5e87acb0377" valueTypeId="d3ecc3f7-700b-46b6-9f7b-af2a7267fc32"/>
+      <rowType typeId="83c258d4-a929-4e88-a6ca-a5fe9353afb4" valueTypeId="8dbf5e3a-ce58-42fb-aed2-185a65de6861"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <templates uuid="e3464962-4c4a-48b2-b910-81871c2168a9">
+    <name>Макет2</name>
+    <synonym>
+      <key>ru1</key>
+      <value>Макет2</value>
+    </synonym>
+  </templates>
+  <commands uuid="658b74dc-7a81-4d88-8bc6-821ecaddee19">
+    <name>Команда1</name>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

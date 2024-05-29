@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
+	<ConfigVersions>
+		<Metadata name="CommonForm.Расш1_Форма" id="20d9dee8-48c0-4684-af72-377180226501" configVersion="0eee41a28b5563424208cd15eaca39b25f519885"/>
+		<Metadata name="CommonForm.Расш1_Форма.Form" id="20d9dee8-48c0-4684-af72-377180226501.0" configVersion="7ea61363e7ec07955c8ab30d91aaf7b8857528cb"/>
+		<Metadata name="CommonModule.Расш1_ОбщийМодуль1" id="2cccf065-a347-4b0d-b12c-877207c47960" configVersion="84f2168779650d08ec57a4cf23b1c666e9f471d8"/>
+		<Metadata name="CommonModule.Расш1_ОбщийМодуль1.Module" id="2cccf065-a347-4b0d-b12c-877207c47960.0" configVersion="7629356021785107064113c4152fb5dadef17ffc"/>
+		<Metadata name="Configuration.Расширение1" id="8a329f3d-1ec6-47be-98d5-eb6034d8fbfc" configVersion="13a52048e040fc8b02dae80d54dc36cea5fd1736"/>
+		<Metadata name="Document.Документ2" id="7cca1146-35e9-486a-81bc-e30c70be3212" configVersion="a10f0121726348fe5eb4d3ef5d25cc339865cf7c"/>
+		<Metadata name="Document.Документ2.Form.ФормаДокумента" id="3ba2888e-7577-4b79-ad09-462dea931ece" configVersion="3e180fd7ed80a09eb46a566c16edec4fd2fe0fa2"/>
+		<Metadata name="Document.Документ2.Form.ФормаДокумента.Form" id="3ba2888e-7577-4b79-ad09-462dea931ece.0" configVersion="62d357b51ae8d9a35796e00f560bf28489c7adb2"/>
+		<Metadata name="Language.Русский" id="e263ebd3-f35a-423d-a7ad-b7eadec156ca" configVersion="f1d1d8d9cbd555430bc09084d27dccf1450fb137"/>
+		<Metadata name="Role.Расш1_ОсновнаяРоль" id="0e1d5eb0-2990-4e27-8404-5be9b361d5fc" configVersion="c52099d8f4c8a3b532bc449ff30439f0f025839e"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

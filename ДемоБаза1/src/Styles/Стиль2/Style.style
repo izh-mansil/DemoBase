@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style:Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:style="http://g5.1c.ru/v8/dt/style">
+  <items xsi:type="style:FontStyleItem">
+    <name>LargeTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>0:3cb5678f-5bae-4582-8f0b-cbea00ba9225</font>
+    </font>
+  </items>
+</style:Style>

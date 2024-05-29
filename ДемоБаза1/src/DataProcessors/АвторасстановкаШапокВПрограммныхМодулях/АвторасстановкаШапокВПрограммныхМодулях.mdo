@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b474e874-9816-41af-b59e-1c586b9eec90">
+  <producedTypes>
+    <objectType typeId="f5439453-2baf-454a-9d6b-5f6439695a3a" valueTypeId="88ff7e28-dbaa-4493-82fe-5f231e0b498c"/>
+    <managerType typeId="49f00240-2e8a-4615-9650-2df95a1282e5" valueTypeId="463431a9-068a-4727-a249-9213931cddc3"/>
+  </producedTypes>
+  <name>АвторасстановкаШапокВПрограммныхМодулях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авторасстановка шапок в программных модулях</value>
+  </synonym>
+  <comment>45</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АвторасстановкаШапокВПрограммныхМодулях.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="01fd4155-6caf-4f70-b609-c7e3c8e2dc89">
+    <name>ПутьКБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к базе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="cb64fd0d-b12f-4e4c-bf00-fb9e02cf4a36">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c4523707-0089-4db5-873a-725374b9c84f">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8e8849be-c97d-4b4a-9114-daa02fd8ed13">
+    <name>КаталогВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6148e134-c371-439f-af42-a6a5d9480802">
+    <name>КаталогВыгрузкиРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки результат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="746a626b-d165-448a-965a-e6ad98fd56ea">
+    <name>ПутьКФайловойБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файловой базе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="774dba04-500a-470c-9405-0fa8ca7f1c3a">
+    <name>ТипИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип источника</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5467b20d-cfd6-4e12-aa41-72c6bdacc525">
+    <name>ОбновитьКонфигурациюБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить конфигурацию базы данных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7a73ec72-cbaf-4b1e-a87c-a06d70debd0c">
+    <name>КаталогХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1dbf1a4a-bda6-4481-b114-bc74be9303b6">
+    <name>ПользовательХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5093ca9f-8d3e-4267-91f4-d8ab6bee3051">
+    <name>ПарольХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="648d60fd-61b3-4455-853e-74b896f5a7d7">
+    <name>СтрокаЗапускаПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка запуска платформы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c013ecaf-1605-4f31-b719-4015c93e339f">
+    <name>СписокИзмененныхОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список измененных объектов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cb5f8c5b-75d6-488b-bd55-a3edaac9e29b">
+    <name>ВыгружатьКонфигурациюВФайлыXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать конфигурацию в файлы XML</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="95c2e471-342a-4c5c-b9f6-54d8c906c53c">
+    <name>ЗагружатьКонфигурациюИзФайловXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружать конфигурацию из файлов XML</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c6b6bb24-5822-4802-9301-236d407e1214">
+    <name>ПомещатьИзмененныеОбъектыВХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещать измененные объекты в хранилище</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b2ce39ba-9623-4e73-9458-5d8aebc46d4f">
+    <name>ТекстКомментария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст комментария</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5cac03d1-9ef8-4195-bde8-4e79576946f0">
+    <name>СписокЗахваченныхОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список захваченных объектов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0bfb89de-7d24-468b-9e0a-894fa591c35f">
+    <name>ТекстПреамбулыПрограммныхМодулей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст преамбулы программных модулей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="5262c908-96ac-4079-bf31-0f2644afcf30">
+    <producedTypes>
+      <objectType typeId="b38bde16-48c2-42d4-966e-64bbeff4e501" valueTypeId="5394c0cd-505d-4a62-a7b8-82a5e292f13c"/>
+      <rowType typeId="4b31f923-4854-413e-b713-4aaf8d250e9f" valueTypeId="d4db011e-52f1-4634-87ad-abcbd5bd19ca"/>
+    </producedTypes>
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9a069760-74d4-4067-9db9-fd8278bd8d60">
+      <name>Флаг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Флаг</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:BooleanValue">
+        <value>true</value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d24abe02-42e5-4935-bb16-2c05f24a206a">
+      <name>Объект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="39b2ee0f-6dce-4aad-8294-ca5ecd791969">
+      <name>Результат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Результат</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="b97b38b5-13db-4b0c-81f0-498d006640d0">
+      <name>Изменен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изменен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e3eb5bb0-ce47-4dff-bbe5-0d5a78ed98fd">
+      <name>Пропущено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пропущено</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="ffbb80d2-5aeb-425e-8461-5674bbc30e8c">
+      <name>СчетчикПропущенных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счетчик пропущенных</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cbd76dc6-3151-4a38-a408-681f3b4f699e">
+      <name>УточнениеИсключения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Уточнение исключения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <extendedEdit>true</extendedEdit>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="c8c7422f-2a80-4f60-842f-b3db9b43c95c">
+      <name>ПолноеИмяФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное имя файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="fe9d1833-e143-466d-94dc-c2cf9d380ebd">
+      <name>ЗахваченВХранилище</name>
+      <synonym>
+        <key>ru</key>
+        <value>Захвачен в хранилище</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ddab3f13-9c50-4eef-b02c-638e3bb08ca0">
+      <name>РедактированиеРазрешено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Редактирование разрешено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3d7c9277-9312-4f3d-8834-a7580302157c">
+    <producedTypes>
+      <objectType typeId="138c289a-ab42-4639-ace8-4e1ea748fc1d" valueTypeId="8655738e-7550-462e-b190-7cc3a3589317"/>
+      <rowType typeId="3aa895a6-616d-4fa8-b716-fee08f05b14b" valueTypeId="d1a78ce3-5e2b-4371-8b7c-a67364e86ec8"/>
+    </producedTypes>
+    <name>ЗахваченныеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Захваченные объекты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b4f2f6ce-6b0b-4e18-afd8-99901ca70246">
+      <name>Объект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="05507b0b-7339-4a9a-a9b3-db172f18b30c">
+      <name>ЗахваченДляРедактирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Захвачен для редактирования</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="10a2618c-cf2c-4c63-a668-c2a0b2f89f28">
+    <producedTypes>
+      <objectType typeId="d7cac64c-7b9b-49ab-a54e-b13dedf8d0e8" valueTypeId="79648d10-640c-4497-9ca6-ce0d2361943b"/>
+      <rowType typeId="26d29e17-8d94-4df3-bd5a-d38088c2009d" valueTypeId="d67f9eae-dd5c-4e50-8418-f17778fa02c0"/>
+    </producedTypes>
+    <name>ПравилаПоддержкиОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила поддержки объектов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b7960ae2-1338-4ae1-8364-ee2f50d1d47e">
+      <name>Объект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="ac04fd4b-dd3b-4975-a08e-2adc92a79dea">
+      <name>ПравилоПоддержки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Правило поддержки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="70b8e7ae-7b6b-4605-b3f0-b93f7907b769">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f3f74dbf-70e9-43b6-ab4c-b64d04d79f6f">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4d444bb0-e0a6-46b8-8fb3-611794e95bc1">
+    <name>ШаблонТекстаПреамбулы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон текста преамбулы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4efd1c27-a27b-467d-aff2-67d7e14bfb0d">
+  <name>ОбщийРеквизит1Использование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий реквизит1 использование</value>
+  </synonym>
+  <comment>ОбщийРеквизит1 Использование</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f057115-165b-48cc-bd90-8022b7b30ae7">
+  <producedTypes>
+    <containerType typeId="8a137695-3f47-42a7-930b-ba9b49325e4f" valueTypeId="6013923e-8098-453a-acf2-63382f112cf0"/>
+  </producedTypes>
+  <name>ОпределяемыйТип2</name>
+  <type>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+  </type>
+</mdclass:DefinedType>

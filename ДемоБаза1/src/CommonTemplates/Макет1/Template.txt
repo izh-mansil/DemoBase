@@ -1,0 +1,9 @@
+encoding=123
+
+var v8logEncoding = '[КодировкаЛогФайла]'
+if (logEncoding == 'ASCII' || v8logEncoding == 'ASCII') {
+oADODBStream. CharSet = 'utf-8'
+
+<meta http-equiv="Content-Type" content="application/hta;charset=UTF-16">
+<meta http-equiv="Content-Type" content="application/hta; charset  = 	'UTF-8'">
+stream.CharSet = 'UTF-16'

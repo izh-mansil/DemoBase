@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9be44003-f82e-4726-a854-a600e028b5ec">
+  <producedTypes>
+    <listType typeId="f5ac4b97-37e5-40c2-9a14-ef3e7a51c8b1" valueTypeId="7bbc4e3a-88c0-4676-885a-429c214eef94"/>
+    <managerType typeId="ab9075f1-7e42-44a6-853f-4de7a9299c70" valueTypeId="16b30ef3-f59a-4ce5-bceb-d9c7a3506607"/>
+  </producedTypes>
+  <name>КритерийОтбора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Критерий отбора</value>
+  </synonym>
+  <type/>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>FilterCriterion.КритерийОтбора.Form.ФормаСписка</defaultForm>
+  <forms uuid="105840c4-4507-465c-8ca6-26341a5fac84">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="02404b9a-3bf4-4ffa-b8c1-a9a0ccd0586c">
+    <name>Команда1</name>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:FilterCriterion>

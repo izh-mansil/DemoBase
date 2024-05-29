@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0d71b2d-f7ea-431d-9083-702266097920">
+  <name>Подсистема2</name>
+  <synonym>
+    <key>ru</key>
+    <value>цукец</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>adfsgsdfg</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ДивидендыКлиент</content>
+  <content>InformationRegister.РегистрСведений1</content>
+  <content>AccumulationRegister.РегистрНакопления11</content>
+  <content>AccountingRegister.РегистрБухгалтерии1</content>
+  <content>CalculationRegister.РегистрРасчета1</content>
+  <content>ChartOfCalculationTypes.ПланВидовРасчета1</content>
+  <content>CommonModule.Глобальный</content>
+  <content>CommonModule.РаботаСБанкамиКлиент</content>
+  <content>Catalog.Справочник2</content>
+  <subsystems>Подсистема21</subsystems>
+</mdclass:Subsystem>

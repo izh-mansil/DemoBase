@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f6764b3-9d73-4ecd-94de-68e221baa934">
+  <producedTypes>
+    <refType typeId="398b8bf0-b691-414b-adad-0b4449b908e5" valueTypeId="56a469ab-89e0-4da0-80db-7ee1a719407b"/>
+    <listType typeId="a620f599-8d08-4af0-95c6-757840398620" valueTypeId="98a8a3cd-912a-459b-a990-ceeeffa33149"/>
+    <managerType typeId="3539eaae-0f80-4d3f-b273-df3b0175cfc5" valueTypeId="24aa73d3-5f8d-4b9d-a018-efa4b47c9c7d"/>
+  </producedTypes>
+  <name>Перечисление1</name>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на перечисление</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.Перечисление1.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="40142118-1a5a-41b1-9c3b-5159ef61f71e">
+    <name>ЗначениеПеречисления1</name>
+  </enumValues>
+  <enumValues uuid="04d0470f-3cff-4821-b6ef-143839ffda66">
+    <name>ЗначениеПеречисления2</name>
+  </enumValues>
+  <forms uuid="33d47463-f1e1-437a-966f-8a8b70605f69">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

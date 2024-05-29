@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0db07c13-3ee7-4e14-b78e-1121dec7bc17">
+  <name>Подсистема21</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема21</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ОбщийМодуль5</content>
+  <content>SettingsStorage.ХранилищеНастроек1</content>
+  <content>Catalog.Справочник1</content>
+  <parentSubsystem>Subsystem.Подсистема2</parentSubsystem>
+</mdclass:Subsystem>

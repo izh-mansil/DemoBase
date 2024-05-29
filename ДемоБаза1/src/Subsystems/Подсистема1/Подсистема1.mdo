@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5ae6b5a-1bdb-41ab-b2a7-90be20044cc1">
+  <name>Подсистема1</name>
+  <synonym>
+    <key>ru</key>
+    <value>ашипка5 новый6 старый 7</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Справочник1</content>
+  <content>CommonCommand.ОбщаяКоманда1</content>
+  <content>CommonModule.ОбщийМодуль3КлиентСервер</content>
+  <content>Catalog.Справочник_ТестБитыхСсылок</content>
+  <subsystems>Подсистема11</subsystems>
+</mdclass:Subsystem>

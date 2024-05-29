@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="348be197-641b-4e23-b2b8-32b752c3b648">
+  <producedTypes>
+    <objectType typeId="03a1a047-73ec-435e-a961-693619f5d7b6" valueTypeId="1d867c94-a170-4165-929d-71855086e722"/>
+    <refType typeId="ad86562e-d9f0-42f5-8e6c-8b0eff186163" valueTypeId="88d344fa-098c-4ec8-b085-7f925bfa6553"/>
+    <selectionType typeId="f8b3229a-fd49-497b-886a-e2f1c40dfae3" valueTypeId="185a4aef-e6bd-4e4d-950a-0cc43c051a27"/>
+    <listType typeId="bfb83d43-7439-4574-bfba-ad720460edf6" valueTypeId="8fafb0a0-c8b1-45e8-82e0-1d647407408e"/>
+    <managerType typeId="19c7dea7-fdda-41ff-81a2-b1c0c5dcaa8b" valueTypeId="46be2c30-db6e-4b46-8c68-49a994fc008c"/>
+  </producedTypes>
+  <name>Документ2</name>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Документ2.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Документ2.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9963e64e-6c32-4747-a4bd-69b456104931">
+    <name>Реквизит1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e873ef94-a628-4e4a-95c5-6feb73f6af28">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="0286c0ff-61b1-4e56-b643-326359c3046a">
+    <producedTypes>
+      <objectType typeId="8cfe3d8e-6205-41e0-8d05-7fcfa88bd587" valueTypeId="f8b9a770-f8fd-4681-a180-c30a01275d55"/>
+      <rowType typeId="a09b522a-de9d-4e76-996b-ccf5c9b60187" valueTypeId="dcc1e2e4-29fb-42f4-a235-d2caf9868ffa"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <templates uuid="a590e00a-648f-4cf6-977c-66ed1f8f348d">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <commands uuid="32962463-cef0-44ad-9643-deb049846c8f">
+    <name>Команда1</name>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8949c29c-218b-4810-bd2a-6723cca69dd7">
+  <producedTypes>
+    <objectType typeId="e9d2a36c-11c7-45b2-9594-cdfec810fd16" valueTypeId="afac5130-d35c-4281-a4bc-06a91b11d5a0"/>
+    <refType typeId="8d019930-50f9-49da-b47c-910528b00076" valueTypeId="d6df5fd1-65a8-478f-85a6-1e611afb2c78"/>
+    <selectionType typeId="77608088-5853-4968-870e-9b825f9e12a9" valueTypeId="31d37d23-160d-4fa6-829f-72e1f75e48fe"/>
+    <listType typeId="f0415372-4a91-47b0-9d8f-313c71740813" valueTypeId="aca4baa5-8b9b-4eec-8b81-805a206001ad"/>
+    <managerType typeId="fc1bf158-8745-4c36-a040-d60e810fdf4b" valueTypeId="cd92d9cc-0f65-4398-a90f-47709958725a"/>
+  </producedTypes>
+  <name>АктСверткиВзаимоРасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт свертки взаимо расчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.АктСверткиВзаимоРасчетов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="7a11f4e4-96de-44db-a77b-5db018b65c64">
+    <producedTypes>
+      <objectType typeId="9eafb504-ca44-40f7-a39b-4216352ccfba" valueTypeId="c3f2bb69-b493-41b8-8613-5a8370dfaeb1"/>
+      <rowType typeId="1d202a70-07bf-41d2-9fde-f2ea8f4b8971" valueTypeId="fcc5848c-0deb-4e16-a14a-70bc5dce0bef"/>
+    </producedTypes>
+    <name>ПоДаннымОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>По данным организации</value>
+    </synonym>
+    <attributes uuid="5612a2a5-d603-4421-b565-d6b174cb89ad">
+      <name>Документ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

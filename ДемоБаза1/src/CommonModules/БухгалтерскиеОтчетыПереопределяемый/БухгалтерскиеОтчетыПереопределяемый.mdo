@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a00a6be-1a40-46a2-9c57-4c2d119c3ec3">
+  <name>БухгалтерскиеОтчетыПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерские отчеты переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1a52b73-8e9d-4e88-8605-2c669bf2f918">
+  <producedTypes>
+    <selectionType typeId="34ca2356-bfa2-41e6-becc-f40d611c436e" valueTypeId="d1ff3c3c-129d-43b5-aa7f-3c34b413d736"/>
+    <listType typeId="1d2d8401-f145-4bf6-84a7-f2c58415b642" valueTypeId="db0c9526-c7f3-448c-b3ad-7103a6099cb0"/>
+    <managerType typeId="c08ac83d-dcd6-4bad-b1d0-fcd9579db210" valueTypeId="8fb349cf-db49-4d42-8958-d10fefc90c1a"/>
+  </producedTypes>
+  <name>ЖурналДокументов1</name>
+  <defaultForm>DocumentJournal.ЖурналДокументов1.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Документ1</registeredDocuments>
+  <registeredDocuments>Document.ЯЯЯ</registeredDocuments>
+  <registeredDocuments>Document.УдалитьДокумент2</registeredDocuments>
+  <columns uuid="0171b1cb-5ced-44e4-b87d-f3163c68fa7d">
+    <name>Графа1</name>
+    <references>Document.Документ1.Attribute.НачалоПериода1</references>
+  </columns>
+  <columns uuid="f07e1338-77ea-4cbd-92a5-5ea9989ca66c">
+    <name>Графа2</name>
+    <references>Document.Документ1.Attribute.Реквизит1</references>
+    <references>Document.ЯЯЯ.Attribute.ИННвКорректируемыйПериод</references>
+    <references>Document.УдалитьДокумент2.Attribute.Реквизит1</references>
+  </columns>
+  <forms uuid="7a004f6a-1a73-4d04-a453-7656415e4a45">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

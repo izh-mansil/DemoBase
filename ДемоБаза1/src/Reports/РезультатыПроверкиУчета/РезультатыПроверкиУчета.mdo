@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e062d99e-8b0f-441b-a7c5-ebf3d3c7a493">
+  <producedTypes>
+    <objectType typeId="9bbc6e8f-d067-4e84-8229-2621fd8b7d47" valueTypeId="bf800985-dd05-4db0-a604-eb0cd06cafc5"/>
+    <managerType typeId="46b90af6-b8de-47c6-955a-5fdb9ea66b14" valueTypeId="79cd9b6c-8e42-4c73-afe7-78ac545ebb2b"/>
+  </producedTypes>
+  <name>РезультатыПроверкиУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты проверки учета</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.РезультатыПроверкиУчета.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="74a02cc0-a2c7-4024-8da8-095a27a12801">
+    <name>ИсправлениеЦиклическихСсылок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправление циклических ссылок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e9f61fda-ad8c-4006-9307-4c8cab10e7ab">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

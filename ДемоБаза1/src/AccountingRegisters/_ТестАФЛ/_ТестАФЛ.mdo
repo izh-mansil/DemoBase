@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85acd05b-d6b9-4d34-8081-e83588aad93b">
+  <producedTypes>
+    <selectionType typeId="626860c9-62dc-448f-a389-9a32679f19b8" valueTypeId="57512ac7-d94d-4915-af87-f65f526e686a"/>
+    <listType typeId="96dc39f4-aebe-4eeb-a6f7-fba359cb0cf2" valueTypeId="fcb0cba7-23d1-470e-8b09-6b2c518b8b65"/>
+    <managerType typeId="ccb8b2d4-bf14-4d4f-99b2-48ab7c01b428" valueTypeId="9cadf74e-dc5c-4670-8c1b-6af4b4b08811"/>
+    <recordSetType typeId="16a192ed-9f15-471c-9d2f-85b63c3c8501" valueTypeId="90c6c86e-289e-4164-9505-fafc6d29364f"/>
+    <recordKeyType typeId="c179c6e6-0224-4638-9685-175fcd7b5fcc" valueTypeId="af5c13ab-799f-49bd-af9f-25ea2d0dc12b"/>
+    <recordType typeId="4f7db4c2-e258-4fa1-bfbf-868f95b26851" valueTypeId="c3c6f143-385d-4fd3-a80e-193c3deb8ffb"/>
+    <extDimensionsType typeId="2c1713a3-8dfd-4309-9786-7d05f473a472" valueTypeId="55439d58-b5d6-48ac-88f8-40b18bd625f2"/>
+  </producedTypes>
+  <name>_ТестАФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест АФЛ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <dimensions uuid="6ecfa16a-a42a-4cf3-a570-cd1e09e35420">
+    <name>Измерение1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </dimensions>
+  <resources uuid="f969e676-fb54-4a72-99ed-bc71050476ff">
+    <name>Ресурс1</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>

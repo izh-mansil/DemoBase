@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6e89674-20f0-40fc-ac7b-497f47b41a78">
+  <producedTypes>
+    <objectType typeId="9284789a-29ca-47e8-b610-5679565ac344" valueTypeId="202970b5-6a87-4852-839d-5e738879bb05"/>
+    <managerType typeId="e6b05f69-84db-41c0-b380-1330b3ba265c" valueTypeId="de35d64c-2f83-4f05-8087-49b48d7bdee9"/>
+  </producedTypes>
+  <name>Обработка1</name>
+  <comment>// АПК:78 - лфоыдваофыдвлаофдылв</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Обработка1.Form.Форма</defaultForm>
+  <forms uuid="2ef4b387-b342-4f1e-93b5-0fb9f6ab1cc0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="edf48890-ecc4-4581-880c-4e355d660439">
+    <name>Форма1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="32e2bf27-0339-4e9d-8964-1573e29e4bb3">
+    <name>Команда1</name>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

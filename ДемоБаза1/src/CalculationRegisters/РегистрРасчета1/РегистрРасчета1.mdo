@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddef8475-d4c7-44ee-b4ff-735f346c321d">
+  <producedTypes>
+    <selectionType typeId="d82bac82-499a-43b7-bbd2-f8a501ef956e" valueTypeId="bad771ac-6b31-4151-ae5e-7b678b60945f"/>
+    <listType typeId="68b68e78-5ca0-4865-b212-0b214e8b1f99" valueTypeId="694af10c-a928-4382-8d93-c6f6a06578af"/>
+    <managerType typeId="44bb7d5f-e1f7-4626-97cd-bb84e2715c98" valueTypeId="ee02621b-2d86-4753-af85-7eff478a156a"/>
+    <recordSetType typeId="65273c70-dbb5-4b66-b1e8-53b4063abbb0" valueTypeId="01b89a1e-854c-4cf0-8b46-d7b3f9e2de47"/>
+    <recordKeyType typeId="6cfe4781-744e-4610-82b2-0f0e91df72eb" valueTypeId="6c2822f4-581e-4e93-8ff8-69cbc885b90f"/>
+    <recordType typeId="d8754261-6d95-4e9e-9779-47ce35cc6b80" valueTypeId="d3e33bdb-ddbe-4c4f-ba9f-a78e69403552"/>
+    <recalcsType typeId="b266d747-3696-46e3-beaf-2dc45393637d" valueTypeId="c08ff8e2-2a1a-41a4-b406-54dd1c6240db"/>
+  </producedTypes>
+  <name>РегистрРасчета1</name>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ПланВидовРасчета1</chartOfCalculationTypes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RegistrationPeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>фыва</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReversingEntry</name>
+    <synonym>
+      <key>ru</key>
+      <value>фыва</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <synonym>
+      <key>ru</key>
+      <value>фыва</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>EndOfBasePeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>фыва</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>BegOfBasePeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>фыва</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>EndOfActionPeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>фыва</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>BegOfActionPeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>фыва</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ActionPeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>фыва</value>
+    </synonym>
+    <comment>фывафывафыва</comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>CalculationType</name>
+    <synonym>
+      <key>ru</key>
+      <value>фыва</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <synonym>
+      <key>ru</key>
+      <value>фыва</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <synonym>
+      <key>ru</key>
+      <value>фыва</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e2ae39b1-d954-4d3f-abc7-db6cf76d5fd9">
+    <name>Измерение1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <recalculations uuid="1184cc0c-7a05-4333-8f00-54943e253238">
+    <producedTypes>
+      <recordType typeId="c3ae8e83-629f-414c-8071-90e709fa8a5e" valueTypeId="2d9db475-d4d6-48af-a4b4-4252dbf99b43"/>
+      <managerType typeId="2af965d5-1599-4081-91f7-99ad9ca8c066" valueTypeId="92a9bad4-b85c-4417-96dd-acd3eb7dd8ca"/>
+      <recordSetType typeId="ebd8165d-7252-4fd3-aa3c-ebee472a37aa" valueTypeId="91d01809-9e20-4e1b-8a4a-c209006ff483"/>
+    </producedTypes>
+    <name>Перерасчет1</name>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </recalculations>
+</mdclass:CalculationRegister>

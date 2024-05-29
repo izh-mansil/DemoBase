@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b2f2420-bd1f-46f5-ac97-9afbc7d21542">
+  <producedTypes>
+    <refType typeId="3345318d-d1a1-4344-af1b-3d2963c294c9" valueTypeId="2c4a55e9-f4c5-4034-8612-31e63019ac4d"/>
+    <listType typeId="503d3845-a080-4e9b-b63f-4f7cb1abb953" valueTypeId="9f4aab57-8f3e-4b97-8d8f-7fd570c268d5"/>
+    <managerType typeId="de114e47-8a5c-456c-a727-d049ac547633" valueTypeId="59985bc6-e6bc-425a-a7b6-3d96e41b2392"/>
+  </producedTypes>
+  <name>Перечисление2</name>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>
